@@ -6,9 +6,9 @@ import { ROUTES_ENUM } from "./constants/routing.constants";
 import { LoginComponent } from "./components/login/login.component";
 import { ProfileComponent } from "./components/profile/profile.component";
 import { AdminComponent } from "./components/admin/admin.component";
-import { AboutMeComponent } from './components/about-me/about-me.component';
-import { ProfesionalProjectsComponent } from './components/profesional-projects/profesional-projects.component';
-import { SideProjectsComponent } from './components/side-projects/side-projects.component';
+import { AboutMeComponent } from "./components/about-me/about-me.component";
+import { ProfesionalProjectsComponent } from "./components/profesional-projects/profesional-projects.component";
+import { SideProjectsComponent } from "./components/side-projects/side-projects.component";
 
 const routes: Routes = [
   // main

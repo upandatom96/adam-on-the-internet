@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { BodyAltComponent } from './body-alt.component';
+import { BodyAltComponent } from "./body-alt.component";
 
-describe('BodyAltComponent', () => {
+describe("BodyAltComponent", () => {
   let component: BodyAltComponent;
   let fixture: ComponentFixture<BodyAltComponent>;
 
@@ -19,7 +19,7 @@ describe('BodyAltComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

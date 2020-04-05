@@ -5,6 +5,7 @@ import { RouterTestingModule } from "@angular/router/testing";
 import { BodyComponent } from "../body/body.component";
 import { HeaderComponent } from "../header/header.component";
 import { CardComponent } from "../card/card.component";
+import { BodyAltComponent } from "../body-alt/body-alt.component";
 
 describe("DashboardComponent", () => {
   let component: DashboardComponent;
@@ -13,7 +14,7 @@ describe("DashboardComponent", () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        DashboardComponent, BodyComponent, HeaderComponent, CardComponent,
+        DashboardComponent, BodyComponent, HeaderComponent, CardComponent, BodyAltComponent
       ],
       imports: [RouterTestingModule]
     })

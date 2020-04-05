@@ -17,10 +17,10 @@ import { HeaderComponent } from "./components/header/header.component";
 import { BodyComponent } from "./components/body/body.component";
 import { LoadingComponent } from "./components/loading/loading.component";
 import { CardComponent } from "./components/card/card.component";
-import { BodyAltComponent } from './components/body-alt/body-alt.component';
-import { AboutMeComponent } from './components/about-me/about-me.component';
-import { ProfesionalProjectsComponent } from './components/profesional-projects/profesional-projects.component';
-import { SideProjectsComponent } from './components/side-projects/side-projects.component';
+import { BodyAltComponent } from "./components/body-alt/body-alt.component";
+import { AboutMeComponent } from "./components/about-me/about-me.component";
+import { ProfesionalProjectsComponent } from "./components/profesional-projects/profesional-projects.component";
+import { SideProjectsComponent } from "./components/side-projects/side-projects.component";
 
 @NgModule({
   declarations: [
