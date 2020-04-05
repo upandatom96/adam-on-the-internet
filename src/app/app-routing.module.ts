@@ -7,6 +7,8 @@ import { LoginComponent } from "./components/login/login.component";
 import { ProfileComponent } from "./components/profile/profile.component";
 import { AdminComponent } from "./components/admin/admin.component";
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ProfesionalProjectsComponent } from './components/profesional-projects/profesional-projects.component';
+import { SideProjectsComponent } from './components/side-projects/side-projects.component';
 
 const routes: Routes = [
   // main
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: ROUTES_ENUM.Profile, component: ProfileComponent },
   { path: ROUTES_ENUM.Admin, component: AdminComponent },
   // pages
+  { path: ROUTES_ENUM.ProfessionalProjects, component: ProfesionalProjectsComponent },
+  { path: ROUTES_ENUM.SideProjects, component: SideProjectsComponent },
   { path: ROUTES_ENUM.AboutMe, component: AboutMeComponent },
   // default
   { path: "**", redirectTo: "dashboard" },

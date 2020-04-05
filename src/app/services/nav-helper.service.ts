@@ -23,6 +23,14 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.AboutMe);
   }
 
+  public goToSideProjects(): void {
+    this.goToRoute(ROUTES_ENUM.SideProjects);
+  }
+
+  public goToProfessionalProjects(): void {
+    this.goToRoute(ROUTES_ENUM.ProfessionalProjects);
+  }
+
   public goToProfile(): void {
     this.goToRoute(ROUTES_ENUM.Profile);
   }

@@ -8,7 +8,7 @@
         I have completed projects for courses, for myself, and for clients. Some
         of them are available on my site.
       </p>
-      <button class="btn btn-secondary btn-block" disabled>
+      <button class="btn btn-secondary btn-block" (click)="goToProfessionalProjects()">
         View My Professional Projects
       </button>
     </div>
@@ -19,7 +19,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
         laborum culpa animi soluta! Ipsa, odit.
       </p>
-      <button class="btn btn-secondary btn-block" disabled>
+      <button class="btn btn-secondary btn-block" (click)="goToSideProjects()">
         View My Side Projects
       </button>
     </div>
@@ -43,9 +43,9 @@
         <p>
           Like this free website? Pay it forward to a charity I support.
         </p>
-        <a class="btn btn-secondary" href="#">
+        <button class="btn btn-secondary" disabled>
           Contact
-        </a>
+        </button>
       </app-card>
     </div>
     <div class="col-md-6 my-3">
