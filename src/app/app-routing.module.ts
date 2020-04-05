@@ -9,6 +9,7 @@ import { AdminComponent } from "./components/admin/admin.component";
 import { AboutMeComponent } from "./components/about-me/about-me.component";
 import { ProjectsComponent } from "./components/projects/projects.component";
 import { ResourcesComponent } from "./components/resources/resources.component";
+import { ContactComponent } from "./components/contact/contact.component";
 
 const routes: Routes = [
   // main
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: ROUTES_ENUM.Projects, component: ProjectsComponent },
   { path: ROUTES_ENUM.Resources, component: ResourcesComponent },
   { path: ROUTES_ENUM.AboutMe, component: AboutMeComponent },
+  { path: ROUTES_ENUM.Contact, component: ContactComponent },
   // default
   { path: "**", redirectTo: "dashboard" },
 ];

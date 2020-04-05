@@ -21,6 +21,7 @@ import { BodyAltComponent } from "./components/body-alt/body-alt.component";
 import { AboutMeComponent } from "./components/about-me/about-me.component";
 import { ProjectsComponent } from "./components/projects/projects.component";
 import { ResourcesComponent } from "./components/resources/resources.component";
+import { ContactComponent } from "./components/contact/contact.component";
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ResourcesComponent } from "./components/resources/resources.component";
     AboutMeComponent,
     ProjectsComponent,
     ResourcesComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

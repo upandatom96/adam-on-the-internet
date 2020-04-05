@@ -28,4 +28,8 @@ export class DashboardComponent {
     this.navHelper.goToAboutMe();
   }
 
+  public goToContact() {
+    this.navHelper.goToContact();
+  }
+
 }

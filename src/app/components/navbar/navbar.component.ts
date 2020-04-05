@@ -33,6 +33,26 @@ export class NavbarComponent {
     this.navHelper.goToDashboard();
   }
 
+  public goToProjects(): void {
+    this.navHelper.goToProjects();
+  }
+
+  public goToResources(): void {
+    this.navHelper.goToResources();
+  }
+
+  public goToAboutMe(): void {
+    this.navHelper.goToAboutMe();
+  }
+
+  public goToContact(): void {
+    this.navHelper.goToContact();
+  }
+
+  public goToInfo(): void {
+    this.navHelper.goToInfo();
+  }
+
   public goToProfile(): void {
     this.navHelper.goToProfile();
   }
