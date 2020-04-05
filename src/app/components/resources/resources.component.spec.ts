@@ -1,22 +1,22 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SideProjectsComponent } from "./side-projects.component";
+import { ResourcesComponent } from "./resources.component";
 import { HeaderComponent } from "../header/header.component";
 import { BodyComponent } from "../body/body.component";
 
-describe("SideProjectsComponent", () => {
-  let component: SideProjectsComponent;
-  let fixture: ComponentFixture<SideProjectsComponent>;
+describe("ResourcesComponent", () => {
+  let component: ResourcesComponent;
+  let fixture: ComponentFixture<ResourcesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SideProjectsComponent, HeaderComponent, BodyComponent ]
+      declarations: [ResourcesComponent, HeaderComponent, BodyComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SideProjectsComponent);
+    fixture = TestBed.createComponent(ResourcesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
