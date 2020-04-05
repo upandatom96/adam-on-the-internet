@@ -16,4 +16,8 @@ export class DashboardComponent {
     this.navHelper.goToInfo();
   }
 
+  public goToAboutMe() {
+    this.navHelper.goToAboutMe();
+  }
+
 }
