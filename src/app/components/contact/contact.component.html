@@ -1,8 +1,40 @@
 <app-header [title]="'Contact Me'"></app-header>
 <app-body>
   <div class="row">
-    <div class="col-md-12">
-      <p>Coming soon...</p>
+    <div class="col-md-12 my-3">
+      <app-card>
+        <form>
+          <section id="email">
+            1. Your Email:
+            <br />
+            <input
+              type="email"
+              name="email"
+              [(ngModel)]="contact.sender"
+            /><br /><br />
+          </section>
+          <section id="message">
+            2. Your Message:
+            <br />
+            <textarea rows="20" cols="50" (change)="updateMessage($event)">{{
+              message
+            }}</textarea
+            ><br /><br />
+          </section>
+          <hr />
+          <div class="alert alert-danger" *ngIf="showErrors && !valid">
+            <p>Please correct the following errors:</p>
+            <ul>
+              <li *ngFor="let error of errors">
+                {{ error }}
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-primary" (click)="submit()">
+            Send Message
+          </button>
+        </form>
+      </app-card>
     </div>
   </div>
 </app-body>

@@ -15,15 +15,11 @@ export class ContactService {
     private http: HttpClient,
   ) { }
 
-  public contactAOTI(message: string, sender: string): Observable<any> {
-    const body: ContactBody = {
-      message,
-      sender
-    };
+  public contactAOTI(contactBody: ContactBody): Observable<any> {
     const url = RestUrlBuilder.buildRestUrl({
       service: ServiceUrl.BasicExpress,
       controller: "contact"
     });
-    return this.http.post(url, body, CookieHelper.authHeaders) as Observable<any>;
+    return this.http.post(url, contactBody, CookieHelper.authHeaders) as Observable<any>;
   }
 }
