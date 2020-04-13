@@ -24,6 +24,10 @@ export class FooterComponent {
     this.navHelper.goToLogin();
   }
 
+  public goToContact() {
+    this.navHelper.goToContact();
+  }
+
   public goToAdamOnTheInternet() {
     const url = "http://adamontheinternet.com";
     window.open(url);

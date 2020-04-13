@@ -26,13 +26,9 @@
         </button>
       </p>
       <p class="my-0">
-        <a
-          class="text-white"
-          href="https://adam-on-the-internet.herokuapp.com/contact"
-          target="_blank"
-        >
+        <button class="btn btn-link text-white" (click)="goToContact()">
           Contact
-        </a>
+        </button>
       </p>
       <p class="my-0" *ngIf="!isLoggedIn">
         <button class="btn btn-link text-white" (click)="goToLogin()">
