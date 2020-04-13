@@ -2,7 +2,15 @@
 <app-body>
   <div class="row">
     <div class="col-md-12 my-3">
-      <app-card>
+      <div class="mb-3">
+        <app-card [autoHeight]="false">
+          <p>
+            My email is AdamOnTheInternet.com@gmail.com. You can contact me
+            directly or through the form below.
+          </p>
+        </app-card>
+      </div>
+      <app-card [autoHeight]="false">
         <form>
           <section id="email">
             1. Your Email:

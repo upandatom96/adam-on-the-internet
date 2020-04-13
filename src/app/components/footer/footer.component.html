@@ -25,6 +25,15 @@
           © Adam on the Internet {{ year }}
         </button>
       </p>
+      <p class="my-0">
+        <a
+          class="text-white"
+          href="https://adam-on-the-internet.herokuapp.com/contact"
+          target="_blank"
+        >
+          Contact
+        </a>
+      </p>
       <p class="my-0" *ngIf="!isLoggedIn">
         <button class="btn btn-link text-white" (click)="goToLogin()">
           Login
