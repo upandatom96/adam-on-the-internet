@@ -1,15 +1,15 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Application } from '../models/Application.model';
-import { Observable } from 'rxjs';
-import { RestUrlBuilder } from '../utilities/rest-url-builder.util';
-import { ServiceUrl } from '../constants/rest.constants';
-import { CookieHelper } from '../utilities/cookie.util';
+import { Injectable } from "@angular/core";
+import { HttpClient } from "@angular/common/http";
+import { Application } from "../models/Application.model";
+import { Observable } from "rxjs";
+import { RestUrlBuilder } from "../utilities/rest-url-builder.util";
+import { ServiceUrl } from "../constants/rest.constants";
+import { CookieHelper } from "../utilities/cookie.util";
 
 const controller = "application";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class ApplicationService {
   constructor(

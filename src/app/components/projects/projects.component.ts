@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
-import { ApplicationService } from 'src/app/services/application.service';
-import { Application } from 'src/app/models/Application.model';
-import { BooleanHelper } from 'src/app/utilities/boolean.util';
+import { ApplicationService } from "src/app/services/application.service";
+import { Application } from "src/app/models/Application.model";
+import { BooleanHelper } from "src/app/utilities/boolean.util";
 
 @Component({
   selector: "app-projects",
