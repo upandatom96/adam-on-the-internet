@@ -35,18 +35,6 @@ export class NavHelperService {
     this.goToRoute(ROUTES_ENUM.Resources);
   }
 
-  public goToProfile(): void {
-    this.goToRoute(ROUTES_ENUM.Profile);
-  }
-
-  public goToAdmin(): void {
-    this.goToRoute(ROUTES_ENUM.Admin);
-  }
-
-  public goToLogin(): void {
-    this.goToRoute(ROUTES_ENUM.Login);
-  }
-
   // GENERAL
 
   private goToRoute(route: string): void {

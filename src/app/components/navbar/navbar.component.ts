@@ -52,17 +52,4 @@ export class NavbarComponent {
   public goToInfo(): void {
     this.navHelper.goToInfo();
   }
-
-  public goToProfile(): void {
-    this.navHelper.goToProfile();
-  }
-
-  public goToAdmin(): void {
-    this.navHelper.goToAdmin();
-  }
-
-  public logout(): void {
-    CookieHelper.removeToken();
-    this.navHelper.goToLogin();
-  }
 }

@@ -20,10 +20,6 @@ export class FooterComponent {
     private navHelper: NavHelperService,
   ) { }
 
-  public goToLogin() {
-    this.navHelper.goToLogin();
-  }
-
   public goToContact() {
     this.navHelper.goToContact();
   }

@@ -10,9 +10,6 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { HttpClientModule } from "@angular/common/http";
 import { ActuatorReportComponent } from "./components/actuator-report/actuator-report.component";
-import { LoginComponent } from "./components/login/login.component";
-import { ProfileComponent } from "./components/profile/profile.component";
-import { AdminComponent } from "./components/admin/admin.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { BodyComponent } from "./components/body/body.component";
 import { LoadingComponent } from "./components/loading/loading.component";
@@ -31,9 +28,6 @@ import { ContactComponent } from "./components/contact/contact.component";
     NavbarComponent,
     FooterComponent,
     ActuatorReportComponent,
-    LoginComponent,
-    ProfileComponent,
-    AdminComponent,
     HeaderComponent,
     BodyComponent,
     LoadingComponent,

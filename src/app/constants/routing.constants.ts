@@ -4,8 +4,5 @@ export const enum ROUTES_ENUM {
   AboutMe = "about",
   Projects = "projects",
   Resources = "resources",
-  Profile = "profile",
-  Admin = "admin",
-  Login = "login",
   Contact = "contact",
 }
