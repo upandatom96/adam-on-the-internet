@@ -1,5 +1,5 @@
 import { Component, } from "@angular/core";
-import { Resource } from 'src/app/models/Resource.model';
+import { Resource } from "src/app/models/Resource.model";
 
 // tslint:disable: max-line-length
 
