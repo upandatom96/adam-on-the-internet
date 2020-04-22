@@ -1,3 +1,11 @@
 #nav-section {
   border-bottom: 5px solid rgb(44, 76, 255);
 }
+
+.nav-item {
+  border-left: 3px solid rgb(44, 76, 255);
+}
+
+.nav-item:hover {
+  background-color: black;
+}

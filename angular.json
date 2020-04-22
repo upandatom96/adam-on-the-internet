@@ -136,6 +136,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "adam-on-the-internet"
+    }
+  },
+  "defaultProject": "adam-on-the-internet",
+  "cli": {
+    "analytics": false
+  }
 }
