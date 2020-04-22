@@ -2,59 +2,10 @@
 <app-body>
   <div class="row">
     <div class="col-md-12">
-      <div class="my-3">
-        <app-card [title]="'Heroku'" [autoHeight]="false">
+      <div class="my-3" *ngFor="let resource of resources">
+        <app-card [title]="resource.name" [autoHeight]="false">
           <p>
-            I use the free tier of Heroku for hosting my web applications.
-          </p>
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'MongoDb w/ Atlas'" [autoHeight]="false">
-          <p>
-            I use a Mongo Database to store my data. I use a cloud database with
-            Mongo Atlas.
-          </p>
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'Bootstrap w/ Font Awesome'" [autoHeight]="false">
-          <p>
-            For styling most of my applications, I use Bootstrap 4 and the Font
-            Awesome version that it includes.
-          </p>
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'Travis CI'" [autoHeight]="false">
-          I use the free tier of Travis CI to automatically test most of my
-          applications before they deploy.
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'GitHub'" [autoHeight]="false">
-          I use GitHub for remote repositories for my code.
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'Angular (2+)'" [autoHeight]="false">
-          Most of my UIs are created using Angular.
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'Node w/ Express'" [autoHeight]="false">
-          <p>
-            Node w/ Express powers my API, connecting to my MongoDB via
-            Mongoose. I also use a simple Express app to serve my Angular apps
-            with Heroku.
-          </p>
-        </app-card>
-      </div>
-      <div class="my-3">
-        <app-card [title]="'Metro Studio'" [autoHeight]="false">
-          <p>
-            I use the free application Metro Studio to generate Favicons for my
-            applications.
+            {{ resource.details }}
           </p>
         </app-card>
       </div>
