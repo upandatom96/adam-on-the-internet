@@ -1,6 +1,5 @@
-import { Component } from "@angular/core";
-import { NavHelperService } from "src/app/services/nav-helper.service";
-import { CookieHelper } from "src/app/utilities/cookie.util";
+import {Component} from "@angular/core";
+import {NavHelperService} from "src/app/services/nav-helper.service";
 
 @Component({
   selector: "app-footer",
@@ -8,9 +7,6 @@ import { CookieHelper } from "src/app/utilities/cookie.util";
   styleUrls: ["./footer.component.css"]
 })
 export class FooterComponent {
-  public get isLoggedIn(): boolean {
-    return CookieHelper.isLoggedOn;
-  }
 
   public get year(): number {
     return new Date().getFullYear();
@@ -18,7 +14,8 @@ export class FooterComponent {
 
   constructor(
     private navHelper: NavHelperService,
-  ) { }
+  ) {
+  }
 
   public goToContact() {
     this.navHelper.goToContact();
