@@ -1,6 +1,6 @@
 <app-body>
   <div class="row" id="name">
-    <div class="col-md-12">
+    <div class="col-md-12 my-2">
       <h1 class="text-center">
         Adam Callanan
       </h1>
@@ -9,9 +9,9 @@
   <div class="row" id="main-info">
     <div class="col-md-12 text-center d-md-none">
       <span>BS in Computer Science</span>
-      <br />
+      <br/>
       <span>Des Moines, IA</span>
-      <br />
+      <br/>
       <span>adamontheinternet.com@gmail.com</span>
     </div>
     <div class="col-md-12 d-none d-md-flex justify-content-around">
@@ -21,11 +21,14 @@
       <span>~~</span>
       <span>adamontheinternet.com@gmail.com</span>
     </div>
+    <div class="col-md-12">
+      <hr>
+    </div>
   </div>
-  <div class="row" id="links">
-    <div class="col-md-4 my-3">
+  <div class="row justify-content-center" id="links">
+    <div class="col-md-3 my-3">
       <a
-        class="btn btn-outline-primary"
+        class="btn btn-outline-primary btn-block"
         href="assets/resume.pdf"
         target="_blank"
       >
@@ -34,9 +37,9 @@
         </i>
       </a>
     </div>
-    <div class="col-md-4 my-3">
+    <div class="col-md-3 my-3">
       <a
-        class="btn btn-outline-primary"
+        class="btn btn-outline-primary btn-block"
         href="https://github.com/upandatom96"
         target="_blank"
       >
@@ -45,9 +48,20 @@
         </i>
       </a>
     </div>
-    <div class="col-md-4 my-3">
+    <div class="col-md-3 my-3">
       <a
-        class="btn btn-outline-primary"
+        class="btn btn-outline-primary btn-block"
+        href="https://adam-on-the-internet.github.io/developer-blog/"
+        target="_blank"
+      >
+        <i class="fa fa-feed">
+          My Developer Blog
+        </i>
+      </a>
+    </div>
+    <div class="col-md-3 my-3">
+      <a
+        class="btn btn-outline-primary btn-block"
         href="https://www.linkedin.com/in/adam-callanan-49114b119/"
         target="_blank"
       >
@@ -69,7 +83,7 @@
           Software Engineer at Principal Financial Group
         </h4>
         <p class="text-center">August 2018 to Current</p>
-        <hr />
+        <hr/>
         <ul>
           <li>
             developing web apps with Angular and Java Spring
@@ -79,13 +93,13 @@
           </li>
         </ul>
       </app-card>
-      <br />
+      <br/>
       <app-card [autoHeight]="false">
         <h4 class="text-center">
           IT Intern at Reinsurance Group of America
         </h4>
         <p class="text-center">May 2017 to August 2017</p>
-        <hr />
+        <hr/>
         <ul>
           <li>
             wrote automated tests with Selenium
@@ -98,13 +112,13 @@
           </li>
         </ul>
       </app-card>
-      <br />
+      <br/>
       <app-card [autoHeight]="false">
         <h4 class="text-center">
           QA IT Intern at Principal Financial Group
         </h4>
         <p class="text-center">May 2016 to August 2016</p>
-        <hr />
+        <hr/>
         <ul>
           <li>
             converted manual tests to automated tests with SoapUI
@@ -124,7 +138,7 @@
           BS of Computer Science at Truman State
         </h4>
         <p class="text-center">August 2014 to August 2018</p>
-        <hr />
+        <hr/>
         <ul>
           <li>
             minored in psychology and jazz studies
@@ -140,13 +154,13 @@
           </li>
         </ul>
       </app-card>
-      <br />
+      <br/>
       <app-card [autoHeight]="false">
         <h4 class="text-center">
           Study Abroad at Maynooth University
         </h4>
         <p class="text-center">January 2018 to May 2018</p>
-        <hr />
+        <hr/>
         <ul>
           <li>
             studied UI/UX and digital audio
@@ -196,6 +210,11 @@
         Beyond Employment
       </h2>
       <ul class="list-group">
+        <li class="list-group-item">
+          <a href="https://aoti-app-hub.herokuapp.com/dashboard" target="_blank">
+            create personal projects
+          </a>
+        </li>
         <li class="list-group-item">
           <a href="http://www.armor-equip.com/" target="_blank">
             designed and developed a custom website for a local business
