@@ -22,7 +22,7 @@ export class FooterComponent {
   }
 
   public goToAdamOnTheInternet() {
-    const url = "http://adamontheinternet.com";
+    const url = "https://www.adamontheinternet.com";
     window.open(url);
   }
 }
