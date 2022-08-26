@@ -14,7 +14,7 @@ export class ProjectsComponent implements OnInit {
   public get featuredApps(): Application[] {
     return this.applications.filter((app) => {
       const appFeatured = app.status === 2;
-      const isNotThisApp = !app.link.includes("adamontheinternet.com");
+      const isNotThisApp = app.link && !app.link.includes("adamontheinternet.com");
       return appFeatured && isNotThisApp;
     });
   }
